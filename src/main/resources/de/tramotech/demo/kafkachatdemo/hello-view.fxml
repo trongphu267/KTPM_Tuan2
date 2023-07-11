@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="984.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="de.tramotech.demo.kafkachatdemo.ChatUIController">
+  <children>
+    <TextArea fx:id="mainArea" layoutX="17.0" layoutY="14.0" prefHeight="226.0" prefWidth="565.0" />
+    <TextField fx:id="input" layoutX="17.0" layoutY="258.0" onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="565.0" />
+  </children>
+</Pane>
